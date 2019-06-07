@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>HTML Tables</h1>
+
+  <h2>Invoice</h2>
+
+  <table border="1px">
+    <!-- table head -->
+    <thead>
+      <tr>
+        <th colspan="3">Order #123</th>
+        <th>31 Dec 2099</th>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <strong>Order:</strong> <br>
+          Some Fruit Co<br>
+          111 High St <br>
+          Some Town, UK
+        </td>
+        <td colspan="2">
+          <strong>Customer:</strong> <br>
+          John Doe <br>
+          10 Anon Avenue <br>
+          Another Town, UK
+        </td>
+      </tr>
+    </thead>
+    
+    <!-- table body -->
+    <tbody>
+      <tr>
+        <th>Product</th>
+        <th>Qty.</th>
+        <th>Price</th>
+        <th>Total</th>
+      </tr>
+      <tr>
+        <td>Apples</td>
+        <td>100</td>
+        <td>0.25</td>
+        <td>25.00</td>        
+      </tr>
+      <tr>
+        <td>Oranges</td>
+        <td>50</td>
+        <td>0.30</td>
+        <td>15.00</td>      
+      </tr>
+    </tbody>
+    <!-- table foot -->
+    <tfoot>
+      <tr>
+        <th colspan="3">Grand Total</th>
+        <td>40.00</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
